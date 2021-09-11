@@ -14,6 +14,9 @@ function conectarConNetflix(datos,generarRespuesta){
    },5000)
 }
 
+
+
+
 conectarConNetflix(datosUsuario,function(codigo){
     if(codigo==200){
         console.log("bienvenido a netflix");
@@ -24,18 +27,16 @@ conectarConNetflix(datosUsuario,function(codigo){
 })
 
 
-
-
-
 /*
+
 function netflix(usuario,password){
-   if(usuario==datos.usuario && password==datos.password){
+   if(usuario===datosUsuario.usuario && password===datosUsuario.password){
         console.log("inicio de sesion valido")
     }else{
         console.log("error")
     }
  }
 
-console.log(netflix("pedro@gmail.com","123"))
+console.log(netflix("pedro@gmail.com",123))
 
 */
